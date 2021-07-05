@@ -9,6 +9,9 @@
 }
 
 :root {
+	/* Fonts */
 	--special-font: "Special Font", sans-serif;
 	--general-font: "General Font", sans-serif;
+	/* Colors */
+	--primary-color: #20c997;
 }
