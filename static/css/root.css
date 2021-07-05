@@ -5,13 +5,23 @@
 
 @font-face {
 	font-family: "General Font";
-	src: url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+	src: url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "General Font Medium";
+	src: url("../fonts//Quicksand/Quicksand-Medium.ttf") format("truetype");
 }
 
 :root {
 	/* Fonts */
 	--special-font: "Special Font", sans-serif;
 	--general-font: "General Font", sans-serif;
+	--general-font-medium: "General Font Medium", sans-serif;
+	
 	/* Colors */
 	--primary-color: #20c997;
+	--text-font-color: #4c4d4d;
+	--title-font-color: #343a40;
+	--subtitle-font-color: #252b33;
 }
