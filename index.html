@@ -1,56 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Document</title>
-		<link rel="stylesheet" href="./static/css/normalize.css">
-		<link rel="stylesheet" href="./static/css/root.css">
-		<link rel="stylesheet" href="./static/css/general.css">
-	</head>
-	<body>
-		<header class="navbar">
-			<nav class="nav">
-				<figure class="nav-brand">
-					<img src="./static/img/photo_2021-03-10_14-49-08.jpg" alt="Navbar Logo">
-				</figure>
-				<ul class="nav-items">
-					<li class="nav-item">
-						<a class="nav-link" href="#home">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#about-me">About Me</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Projects</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Contact Me</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<section id="home" class="section banner">
-			<div class="banner-mask">
-				<p class="banner-title">Bienvenido! <br /> Yo soy <span class="typed"></span></p>
-				<figure class="banner-logo">
-					<img src="./static/img/photo_2021-07-04_21-26-43.jpg" alt="Banner Logo">
-				</figure>
-			</div>
-		</section>
-		<section id="about-me" class="section bio">
-			<header class="bio-header">
-				<h3 class="bio-title">Conóceme más...</h3>
-				<hr />
-			</header>
-			<article class="bio-desc">
-				<h4 class="bio-subtitle">Soy <span>Diego Alvarez</span>, <br /> y soy Web Developer</h4>
-				<p class="bio-article">Soy un desarrollador apasionado, tengo experiencia tanto en el área web como en desktop, continuamente hago proyectos para superarme, los más completos los podrá ven en la sección Portafolio.</p>
-				<p class="bio-article">Mis conocimientos van desde el diseño de una base de datos hasta el desarrollo de una aplicacion web en frameworks como Flask, Laravel y Django, pasando por la maquetación y creación de manuales de usuario, creacion de aplicaciones de escritorio multiplataforma y landing pages funcionales, así como el desarrollo de APIS que puedan ser consumidas desde varios frontend. También realizo diseño de páginas web basado en los principios de UX y UI. </p>
-			</article>
-		</section>
-		<script src="./static/vendor/typed/typed.js@2.0.12.js"></script>
-		<script src="./static/js/typed.js"></script>
-		<script src="./static/js/index.js"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diego Alvarez | Full Stack Dev</title>
+    <link rel="stylesheet" href="./static/css/normalize.css" />
+    <link rel="stylesheet" href="./static/css/root.css" />
+    <link rel="stylesheet" href="./static/css/general.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <nav class="nav">
+        <figure class="nav-brand">
+          <img
+            src="./static/img/photo_2021-03-10_14-49-08.jpg"
+            alt="Navbar Logo"
+          />
+        </figure>
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-me">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home" class="section banner">
+      <div class="banner-mask">
+        <p class="banner-title">
+          Bienvenido! <br />
+          Yo soy <span class="typed"></span>
+        </p>
+        <figure class="banner-logo">
+          <img
+            src="./static/img/photo_2021-07-04_21-26-43.jpg"
+            alt="Banner Logo"
+          />
+        </figure>
+      </div>
+    </section>
+    <section id="about-me" class="section bio">
+      <header class="section-header">
+        <h3 class="section-title">Conóceme más...</h3>
+        <hr class="section-border" />
+      </header>
+      <article class="bio-desc">
+        <h4 class="bio-subtitle">
+          Soy <span>Diego Alvarez</span>, <br />
+          y soy Web Developer
+        </h4>
+        <p class="bio-article">
+          Soy un desarrollador apasionado, tengo experiencia tanto en el área
+          web como en desktop, continuamente hago proyectos para superarme, los
+          más completos los podrá ven en la sección Portafolio.
+        </p>
+        <p class="bio-article">
+          Mis conocimientos van desde el diseño de una base de datos hasta el
+          desarrollo de una aplicacion web en frameworks como Flask, Laravel y
+          Django, pasando por la maquetación y creación de manuales de usuario,
+          creacion de aplicaciones de escritorio multiplataforma y landing pages
+          funcionales, así como el desarrollo de APIS que puedan ser consumidas
+          desde varios frontend. También realizo diseño de páginas web basado en
+          los principios de UX y UI.
+        </p>
+      </article>
+    </section>
+
+    <section id="contact-me" class="section contact">
+      <header class="section-header">
+        <h3 class="section-title">Contáctame</h3>
+        <hr class="section-border" />
+      </header>
+      <form class="contact-form" action="#" method="post">
+        <div class="form-group">
+          <input
+            class="input-form"
+            type="text"
+            id="name"
+            maxlength="20"
+            placeholder="Name"
+          />
+        </div>
+
+        <div class="form-group">
+          <input
+            type="email"
+            class="input-form"
+            name="email"
+            id="email"
+            placeholder="Email"
+          />
+        </div>
+
+        <div class="form-group">
+          <textarea
+            class="input-form text-area"
+            name="content"
+            id="content"
+            cols="30"
+            rows="10"
+            placeholder="Dime, ¿qué necesitas?"
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <input class="button" type="submit" value="Enviar" />
+        </div>
+      </form>
+    </section>
+
+    <!-- Javascript Files -->
+    <script src="./static/vendor/typed/typed.js@2.0.12.js"></script>
+    <script src="./static/js/typed.js"></script>
+    <script src="./static/js/index.js"></script>
+  </body>
 </html>
