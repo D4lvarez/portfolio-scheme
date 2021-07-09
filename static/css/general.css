@@ -198,6 +198,7 @@ body {
 .portfolio-item {
   border: lightgray solid 1px;
   border-radius: 5px;
+  display: none;
 }
 
 .portfolio-inner {
@@ -205,7 +206,7 @@ body {
   border: lightgray solid 1px;
   border-radius: 10px;
   padding: 12px;
-  background-color: #ecececa6;
+  background-color: #d6d6d685;
 }
 
 .portfolio-filter {
@@ -236,6 +237,43 @@ body {
   padding: 3%;
   font-family: var(--general-font);
   line-height: 1.6;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: relative;
+  top: -55%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #252b33;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: -41%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the "prev button" to the left */
+.prev {
+  left: -41%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 /* Contact Section */
