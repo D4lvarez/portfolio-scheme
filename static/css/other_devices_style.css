@@ -14,7 +14,11 @@
     .form-group {
         margin-top: 2% ;
         margin-bottom: 2% ;
-        margin-left: 10% !important;
+        margin-left: 26% ;
+    }
+
+    .button {
+        color: maroon;
     }
 }
 
