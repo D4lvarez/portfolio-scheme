@@ -3,14 +3,18 @@
         left: 31% ;
     }
 
+    .portfolio-image {
+        width: 260px;
+    }
+
     .next, .prev {
-        top: -35%;
+        top: -35% ;
     }
 
     .form-group {
-        margin-top: 2%;
-        margin-bottom: 2%;
-        margin-left: 26%;
+        margin-top: 2% ;
+        margin-bottom: 2% ;
+        margin-left: 26% ;
     }
 }
 
