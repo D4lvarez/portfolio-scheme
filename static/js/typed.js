@@ -1,6 +1,1 @@
-var typed = new Typed(".typed", {
-  strings: ["Diego Alvarez.", "Full Stack Developer.", "Freelancer."],
-  loop: true,
-  startDelay: 1000,
-  typeSpeed: 150,
-});
+var typed=new Typed(".typed",{strings:["Diego Alvarez.","Full Stack Developer.","Freelancer."],loop:!0,startDelay:1e3,typeSpeed:150});

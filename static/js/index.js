@@ -1,11 +1,1 @@
-document.onscroll = () => {
-  const body = document.querySelector("body");
-  const navbar = document.querySelector(".navbar");
-  let positionScroll = body.getBoundingClientRect().y;
-
-  if (positionScroll < -10) {
-    navbar.classList.add("navbar-active");
-  } else {
-    navbar.classList.remove("navbar-active");
-  }
-};
+document.onscroll=(()=>{const e=document.querySelector("body"),t=document.querySelector(".navbar");e.getBoundingClientRect().y<-10?t.classList.add("navbar-active"):t.classList.remove("navbar-active")});
