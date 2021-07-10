@@ -1,0 +1,17 @@
+@media screen and (min-width: 720px) {
+    .banner-logo {
+        left: 31% ;
+    }
+
+    .next, .prev {
+        top: -35%;
+    }
+
+    .form-group {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 26%;
+    }
+}
+
+
