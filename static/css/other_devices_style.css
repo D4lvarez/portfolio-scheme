@@ -20,3 +20,19 @@
 }
 
 
+@media screen and (min-width: 720px) {
+    .banner-logo {
+        left: 32% ;
+    }
+
+    .portfolio-image {
+        width: 250px;
+    }
+
+    .form-group {
+        margin-top: 2% ;
+        margin-bottom: 2% ;
+        margin-left: 29% ;
+    }
+    
+}
