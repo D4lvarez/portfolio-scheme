@@ -3,6 +3,10 @@
         left: 13% ;
     }
 
+    .portfolio {
+        margin-top: 50px;
+    }
+
     .portfolio-image {
         width: 215px;
     }
