@@ -1,0 +1,142 @@
+@media screen and (min-width: 768px) and (min-height: 1024px) {
+  .banner-logo {
+    left: 32%;
+  }
+
+  .bio-article {
+    text-align: initial;
+    font-size: 1.5rem;
+  }
+
+  .portfolio-items {
+    top: 9%;
+  }
+
+  .portfolio-inner {
+    height: 30rem;
+  }
+
+  .prev,
+  .next {
+    top: -40%;
+  }
+
+  .next {
+    right: -45%;
+  }
+
+  .prev {
+    left: -45%;
+  }
+
+  .portfolio-image {
+    width: 465px;
+  }
+
+  .portfolio-item-title {
+    font-size: 1.75rem;
+  }
+
+  .contact-form {
+    top: 10%;
+  }
+
+  .form-group {
+    margin-left: 29%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-height: 700px) {
+  .banner-logo {
+    left: 32.5%;
+  }
+
+  .bio-article {
+    text-align: initial;
+    font-size: 1.2rem;
+  }
+
+  .portfolio-items {
+    top: 9%;
+  }
+
+  .portfolio-inner {
+    height: 30rem;
+  }
+
+  .prev,
+  .next {
+    top: -40%;
+  }
+
+  .next {
+    right: -45%;
+  }
+
+  .prev {
+    left: -45%;
+  }
+
+  .portfolio-image {
+    width: 465px;
+  }
+
+  .portfolio-item-title {
+    font-size: 1.75rem;
+  }
+
+  .contact-form {
+    top: 10%;
+  }
+
+  .form-group {
+    margin-left: 29%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .banner-logo {
+    left: 37%;
+  }
+
+  .section-title {
+    font-size: 3.25rem;
+  }
+
+  .bio-subtitle {
+    font-size: 2.75rem;
+  }
+
+  .bio-article {
+    font-size: 1.9rem;
+  }
+
+  .portfolio-inner {
+    height: 52rem;
+  }
+
+  .portfolio-image {
+    width: 575px;
+  }
+
+  .portfolio-item-title {
+    font-size: 2.75rem;
+  }
+
+  .portfolio-article {
+    font-size: 1.8rem;
+  }
+
+  .form-group {
+    margin-left: 31%;
+    width: 330px;
+  }
+
+  .button {
+    width: 352px;
+  }
+}

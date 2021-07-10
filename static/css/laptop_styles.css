@@ -1,0 +1,83 @@
+@media screen and (min-width: 1024px) and (min-height: 700px) {
+  .section-title {
+    font-size: 2.25rem !important;
+  }
+
+  .bio-subtitle {
+    font-size: 1.75rem !important;
+  }
+
+  .bio-article {
+    font-size: 1.4rem !important;
+  }
+
+  .portfolio-inner {
+    height: 28rem !important;
+  }
+
+  .portfolio-image {
+    width: 365px !important;
+  }
+
+  .portfolio-item-title {
+    font-size: 1.75rem !important;
+  }
+
+  .portfolio-article {
+    font-size: 1.1rem !important;
+  }
+
+  .contact-form {
+    top: 10%;
+  }
+
+  .input-form {
+    height: 35px;
+  }
+
+  .input-form.text-area {
+    height: 8rem;
+  }
+
+  .button {
+    width: 352px;
+  }
+
+  .prev,
+  .next {
+    top: -45%;
+  }
+
+  .form-group {
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .banner-logo {
+    left: 40.5% !important;
+  }
+  .portfolio-items {
+    top: 10% !important;
+  }
+
+  .input-form.text-area {
+    height: 9rem;
+  }
+
+  .input-form {
+    margin-left: -5% !important;
+    width: 500px !important;
+  }
+
+  .button {
+    width: 525px !important;
+    margin-left: -16px !important;
+  }
+
+  .form-group {
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+}
