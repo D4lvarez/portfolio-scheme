@@ -1,0 +1,30 @@
+@media screen and (min-width: 1440px) {
+    :root {
+      --banner-logo: 40.5%;
+      --next-prev-buttons-top: -45%;
+      --form-group-mt: 1%;
+      --form-group-mb: 1%;
+      --portfolio-image-width: 365px;
+      --font-size-articles: 1.1rem;
+      --contact-form-top: 10%;
+      --portfolio-title: 1.75rem;
+      --portoflio-inner-height: 28rem;
+      --portfolio-items-top: 10%;
+      --section-title-font-size: 2.25rem;
+      --bio-subtitle-font-size: 1.75rem;
+      --portfolio-title-font-size: 1.75rem;
+    }
+  
+    .input-form.text-area {
+      height: 9rem;
+    }
+    .input-form {
+      margin-left: -5% !important;
+      width: 500px !important;
+    }
+    .button {
+      width: 525px !important;
+      margin-left: -16px !important;
+    }
+  
+  }

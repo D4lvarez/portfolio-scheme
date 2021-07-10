@@ -14,7 +14,7 @@ body {
 .section-title {
   font-family: "Special Font";
   font-weight: 600;
-  font-size: 2.25rem;
+  font-size: var(--section-title-font-size);
 }
 .section-border {
   position: relative;
@@ -93,7 +93,7 @@ body {
 .banner-logo {
   position: absolute;
   top: 48%;
-  left: 17%;
+  left: var(--banner-logo);
   width: 250px;
   height: 250px;
   cursor: pointer;
@@ -133,7 +133,7 @@ body {
 }
 .bio-subtitle {
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: var(--bio-subtitle-font-size);
   line-height: 1.2;
 }
 .bio-subtitle > span {
@@ -143,7 +143,7 @@ body {
   font-family: var(--general-font-medium);
   line-height: 1.8;
   margin: 5%;
-  font-size: 1rem;
+  font-size: var(--font-size-articles);
   font-weight: 400;
 }
 .portfolio {
@@ -153,7 +153,7 @@ body {
 }
 .portfolio-items {
   position: relative;
-  top: 14%;
+  top: var(--portfolio-items-top);
   height: 70%;
   margin: 5%;
   padding: 1%;
@@ -169,23 +169,16 @@ body {
   border-radius: 10px;
   padding: 12px;
   background-color: #d6d6d685;
+  height: var(--portoflio-inner-height);
 }
-.portfolio-filter {
-  display: flex;
-  justify-content: space-between;
-}
-.portfolio-filter li {
-  font-weight: 700;
-  font-size: 1rem;
-  color: var(--primary-color);
-}
+
 .portfolio-image {
-  width: 320px;
+  width: var(--portfolio-image-width);
   height: auto;
 }
 .portfolio-item-title {
   font-family: var(--special-font);
-  font-size: 1.5rem;
+  font-size: var(--portfolio-title-font-size);
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -199,7 +192,7 @@ body {
 .prev {
   cursor: pointer;
   position: relative;
-  top: -55%;
+  top: var(--next-prev-buttons-top);
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -211,11 +204,11 @@ body {
   user-select: none;
 }
 .next {
-  right: -41%;
+  right: var(--next-prev-button-position);
   border-radius: 3px 0 0 3px;
 }
 .prev {
-  left: -41%;
+  left: var(--next-prev-button-position);
   border-radius: 3px 0 0 3px;
 }
 .fade {
@@ -230,7 +223,7 @@ body {
 }
 .contact-form {
   position: relative;
-  top: 15%;
+  top: var(--contact-form-top);
   border: #d3d3d3 solid 1.5px;
   border-radius: 10px;
   margin: 5%;
@@ -240,9 +233,9 @@ body {
 }
 .form-group {
   display: flex;
-  margin-top: 4%;
-  margin-bottom: 5%;
-  margin-left: 11%;
+  margin-top: var(--form-group-mt);
+  margin-bottom: var(--form-group-mb);
+  margin-left: var(--form-group-ml);
   width: 265px;
   flex-direction: column;
 }

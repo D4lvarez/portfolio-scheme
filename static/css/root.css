@@ -1,1 +1,40 @@
-@font-face{font-family:"Special Font";src:url(../fonts/Raleway/Raleway-VariableFont_wght.ttf) format("truetype")}@font-face{font-family:"General Font";src:url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf) format("truetype")}@font-face{font-family:"General Font Medium";src:url(../fonts/Quicksand/Quicksand-Medium.ttf) format("truetype")}:root{--special-font:"Special Font",sans-serif;--general-font:"General Font",sans-serif;--general-font-medium:"General Font Medium",sans-serif;--primary-color:#20c997;--text-font-color:#4c4d4d;--title-font-color:#343a40;--subtitle-font-color:#252b33}
+@font-face {
+  font-family: "Special Font";
+  src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf) format("truetype");
+}
+@font-face {
+  font-family: "General Font";
+  src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "General Font Medium";
+  src: url(../fonts/Quicksand/Quicksand-Medium.ttf) format("truetype");
+}
+:root {
+  --special-font: "Special Font", sans-serif;
+  --general-font: "General Font", sans-serif;
+  --general-font-medium: "General Font Medium", sans-serif;
+  --primary-color: #20c997;
+  --text-font-color: #4c4d4d;
+  --title-font-color: #343a40;
+  --subtitle-font-color: #252b33;
+
+  /* Medidas de ubicación */
+  --banner-logo: 17%;
+  --font-size-articles: 1rem;
+  --portfolio-items-top: 14%;
+  --portoflio-inner-height: auto;
+  --portfolio-image-width: 320px;
+  --next-prev-buttons-top: -55%;
+  --next-prev-button-position: -41%;
+  --portfolio-title: 1.5rem;
+  --contact-form-top: 15%;
+  --form-group-ml: 11%;
+  --form-group-mt: 4%;
+  --form-group-mb: 5%;
+  --form-group-width: 265px; 
+  --section-title-font-size: 2.25rem;
+  --bio-subtitle-font-size: 1.75rem;
+  --portfolio-title-font-size: 1.5rem;
+}
