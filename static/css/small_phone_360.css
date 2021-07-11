@@ -1,15 +1,1 @@
-@media screen and (min-width: 360px) {
-    
-    :root {
-        --banner-logo: 13%;
-        --next-prev-buttons-top: -50%;
-        --form-group-ml: 5%;
-        --form-group-mt: 3%;
-        --form-group-mb: 3%;
-        --portfolio-image-width: 215px;
-    }
-
-    .portfolio {
-        margin-top: 50px;
-    }
-}
+@media screen and (min-width:360px){:root{--banner-logo:13%;--next-prev-buttons-top:-50%;--form-group-ml:5%;--form-group-mt:3%;--form-group-mb:3%;--portfolio-image-width:215px}.portfolio{margin-top:50px}}

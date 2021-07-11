@@ -1,10 +1,1 @@
-@media screen and (min-width: 720px) {
-    :root {
-        --banner-logo: 32%;
-        --next-prev-buttons-top: -50%;
-        --form-group-ml: 29%;
-        --form-group-mt: 2%;
-        --form-group-mb: 2%;
-        --portfolio-image-width: 250px;
-    }
-}
+@media screen and (min-width:720px){:root{--banner-logo:32%;--next-prev-buttons-top:-50%;--form-group-ml:29%;--form-group-mt:2%;--form-group-mb:2%;--portfolio-image-width:250px}}
